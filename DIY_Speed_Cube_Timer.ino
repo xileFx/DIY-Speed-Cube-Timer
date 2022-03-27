@@ -26,7 +26,7 @@ int padR;
 int prevPads;
 short padsSwitched;
 
-boolean useInspectionTime = false;     // TODO: Implement inspection time
+boolean useInspectionTime = false;
 boolean plusTwo = false;
 
 boolean isInspecting = false;
