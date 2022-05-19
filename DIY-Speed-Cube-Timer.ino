@@ -79,6 +79,7 @@ void loop() {
     if (padsSwitched == 1) {
       isRunning = false;
       t += plusTwo ? 2000 : 0;
+      plusTwo = false;
     }
     digits[0] = (int)floor(t/600000)%10;
     digits[1] = (int)floor(t/600000)%6;
