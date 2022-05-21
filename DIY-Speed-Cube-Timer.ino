@@ -81,7 +81,7 @@ void loop() {
       t += plusTwo ? 2000 : 0;
       plusTwo = false;
     }
-    digits[0] = (int)floor(t/600000)%10;
+    digits[0] = (int)floor(t/6000000)%10;
     digits[1] = (int)floor(t/600000)%6;
     digits[2] = (int)floor(t/60000)%10;
     digits[3] = (int)floor(t/10000)%6;
